@@ -2,6 +2,8 @@
 
 ### Types of Languages
 
+<br>
+
 ![Visual represenatation of languages](../.assets/001/001.png)
 
 #### Procedural
@@ -32,3 +34,13 @@
 - Examples include Java, C++, and Python.
 
 <br>
+
+## Static V/S Dynamic Languages
+
+| Static Languages                                                              | Dynamic Languages                                                                  |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Types are checked at compile time, offering early detection of errors.        | Types are checked at runtime, providing flexibility during development.            |
+| Generally faster execution due to compile-time optimizations.                 | Tend to have slower execution compared to statically typed languages.              |
+| May require more upfront planning but can lead to fewer runtime errors.       | Rapid prototyping is facilitated, allowing for quick iteration during development. |
+| Often less flexible as types are fixed at compile time.                       | Offers greater flexibility as types can be determined dynamically.                 |
+| Easier to maintain due to explicit type declarations and compile-time checks. | May require more effort for maintenance due to potential runtime errors.           |
