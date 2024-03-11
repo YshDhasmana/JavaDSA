@@ -1,9 +1,5 @@
 # Introduction to Languages
 
-### Types of Languages
-
-<br>
-
 ![Visual represenatation of languages](../.assets/001/001.png)
 
 #### Procedural
@@ -37,10 +33,47 @@
 
 ## Static V/S Dynamic Languages
 
-| Static Languages                                                              | Dynamic Languages                                                                  |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Types are checked at compile time, offering early detection of errors.        | Types are checked at runtime, providing flexibility during development.            |
-| Generally faster execution due to compile-time optimizations.                 | Tend to have slower execution compared to statically typed languages.              |
-| May require more upfront planning but can lead to fewer runtime errors.       | Rapid prototyping is facilitated, allowing for quick iteration during development. |
-| Often less flexible as types are fixed at compile time.                       | Offers greater flexibility as types can be determined dynamically.                 |
-| Easier to maintain due to explicit type declarations and compile-time checks. | May require more effort for maintenance due to potential runtime errors.           |
+| Static Languages                                    | Dynamic Languages                                    |
+| --------------------------------------------------- | ---------------------------------------------------- |
+| Type Checking done at compile-time                  | Type Checking done at runtime                        |
+| Variables must be declared with specific data types | Variables are declared without specifying data types |
+| Less flexible, types are fixed at compile-time      | More flexible, types can change dynamically          |
+| Generally offers better performance                 | Often slower due to runtime type checks              |
+| May require more time for compilation and debugging | Faster development cycles due to less strict syntax  |
+| Errors are often caught at compile-time             | Errors may only be detected at runtime               |
+| Examples: C, C++, Java, C#                          | Examples: Python, JavaScript, Ruby, PHP              |
+
+<br>
+
+## Memory Management
+
+Memory managemnt is a key concept in any programming language. In Java, it refers to the process of allocating and deallocating memory resources efficiently for programs to run smoothly.
+
+#### Automatic Memory Management
+
+- Java automatically handles memory allocation and deallocation for objects.
+- It simplifies the development process by eliminating the need for developers to manually track memory usage and manage it.
+- Developers can focus on writing code without worrying about memory management tasks, leading to faster development cycles and reduced likelihood of memory-related bugs.
+
+#### Garbage collection
+
+- It is an automatic process where the Java Virtual Machine (JVM) identifies and removes objects from memory that are no longer in use or referenced by the program.
+- It helps prevent memory leaks by reclaiming memory occupied by objects that are no longer reachable or referenced, ensuring efficient memory usage over the lifetime of the program.
+
+#### Stack and Heap Memory
+
+- The heap is where objects are allocated dynamically
+- The stack is used to store method calls and local variables.
+- Memory for objects is allocated on the heap, and references to those objects are stored in the stack.
+
+<br>
+
+## Objects and Reference Variables
+
+![Visual represenatation of Objects and refvariables](../.assets/001/002.png)
+
+<br>
+
+![Visual represenatation of  Objects and refvariables](../.assets/001/002.png)
+
+<br>
