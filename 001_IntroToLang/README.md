@@ -1,5 +1,9 @@
 # Introduction to Languages
 
+<br>
+
+## Types of Languages
+
 ![Visual represenatation of languages](../.assets/001/001.png)
 
 #### Procedural
@@ -57,7 +61,7 @@ Memory managemnt is a key concept in any programming language. In Java, it refer
 
 #### Garbage collection
 
-- It is an automatic process where the Java Virtual Machine (JVM) identifies and removes objects from memory that are no longer in use or referenced by the program.
+- It is an automatic process where the Java identifies and removes objects from memory that are no longer in use or referenced by the program.
 - It helps prevent memory leaks by reclaiming memory occupied by objects that are no longer reachable or referenced, ensuring efficient memory usage over the lifetime of the program.
 
 #### Stack and Heap Memory
@@ -66,14 +70,12 @@ Memory managemnt is a key concept in any programming language. In Java, it refer
 - The stack is used to store method calls and local variables.
 - Memory for objects is allocated on the heap, and references to those objects are stored in the stack.
 
-<br>
-
-## Objects and Reference Variables
-
 ![Visual represenatation of Objects and refvariables](../.assets/001/002.png)
 
 <br>
 
-![Visual represenatation of  Objects and refvariables](../.assets/001/002.png)
+## Objects and Reference Variables
+
+![Visual represenatation of Objects and refvariables](../.assets/001/003.png)
 
 <br>
